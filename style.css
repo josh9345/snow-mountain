@@ -1,0 +1,193 @@
+body{
+	font-family: 'Amaranth', sans-serif;
+}
+.header{
+	background-image: url('mountains.png');
+	min-height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+	padding-bottom: 0;
+	
+
+}
+.container{
+
+	width: auto;
+	margin: 0;
+	padding: 5px;
+
+
+}
+.nav-bar{
+	overflow: hidden;
+}
+a{
+	text-decoration: none;
+	float: right;
+	padding: 0 15px;
+	color: white;
+}
+.hello-button button{
+	background-color: white;
+	color: #277dcf;
+	border-radius: 30px 30px;
+	border: solid  white 3px;
+	
+}
+.logo{
+	float: left;
+	position: absolute;
+	padding-left: 25px;
+
+}
+.blue-box{
+	height:200px;
+	width: auto;
+	background-color: #277dcf;
+	text-align: center;
+	color: white;
+	margin-top: -22px;
+}
+.white-box{
+	height: 750px;
+	width: auto;
+	background-color: white;
+	color: #277dcf;
+	text-align: center;
+
+}
+.pic-grid{
+	display: grid;
+	grid-template-areas: 
+	"a b b"
+	"c c d"
+	"c c e";
+	grid-gap: 3px;
+	grid-template-rows: 300px 300px 300px;
+	grid-template-columns: 300px 300px 300px;
+	padding-top: 75px;
+	justify-content: center;
+	height: 350px;
+}
+
+.lake-house{
+	grid-area: a;
+	background-image: url(cold-daylight.png);
+	background-position:  center;
+}
+.dog{
+	grid-area: b;
+	background-image: url(dog.png);
+	background-position:  center;
+}
+.cool-guy{
+	grid-area: c;
+	background-image: url(cool-guy.png);
+	background-position:  center;
+}
+.adventure{
+	grid-area: d;
+	background-image: url(adventure.png);
+	background-position:  center;
+}
+.cross{
+	grid-area: e;
+	background-image: url(cross.png);
+	background-position:  center center;
+}
+.dialog-box{
+	height: 500px;
+	color: #277dcf;
+	text-align: center;
+	padding-top: 350px;
+}
+.girl{
+	margin: auto;
+	max-height: 125px;
+	padding-top: 25px;
+}
+.quote{
+	max-width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
+blockquote{
+	margin: 5px 10px;
+	padding: 5px 10px;
+	quotes: '"' '"';
+}
+blockquote:before{
+	color: #277dcf;
+	content: open-quote;
+	font-size: 50px;
+	line-height: 25px;
+	float: left;
+}
+blockquote:after{
+	color: #277dcf;
+	content: close-quote;
+	font-size: 50px;
+	line-height: 25px;
+	float: right;
+	padding-top: 5px;
+}
+.footer{
+	display: flex;
+	flex-direction: row;
+	height:200px;
+	width: auto;
+	background-color: #277dcf;
+	text-align: center;
+	color: white;
+	margin-top: -22px;
+	justify-content: space-around;
+}
+.bottom-logo{
+	justify-content: flex-start;
+	padding-top: 85px;
+
+}
+.location{
+	max-width: 90px;
+}
+
+.email{
+
+}
+.phone{
+
+}
+.social-media{
+	max-width: 150px;
+	padding-top: 85px;
+	padding-right: 35px;
+	justify-content: flex-end;
+}
+.wonderful{
+	transform: rotate(-15deg);
+	padding-top: 125px;
+	margin: 0 auto;
+	width: 250px;
+	font-size: 30px;
+	text-align: right;
+	color: white;
+
+}
+.our-work-button button{
+	background-color: #277dcf;
+	color: white;
+	border-radius: 25px 30px;
+	border: solid #277dcf 3px;
+	
+}
+@media screen and (max-width: 576px){
+	.bottom-logo{
+		display: none;
+	}
+	.social-media{
+		display: none;
+	}
+}
